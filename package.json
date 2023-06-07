@@ -1,0 +1,16 @@
+{
+  "name": "const",
+  "version": "1.0.0",
+  "description": "常用固定数据汇总",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "const",
+    "data",
+    "typescript"
+  ],
+  "author": "chenym1992",
+  "license": "MIT"
+}
