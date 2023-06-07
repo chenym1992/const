@@ -4,6 +4,7 @@ export type countryDataType = {
   code_name: string;
   areaCode: string;
   name_zhTW: string;
+  flag?: string;
 };
 export const countryData: countryDataType[] = [
   {
@@ -12,6 +13,7 @@ export const countryData: countryDataType[] = [
     code_name: "CN",
     areaCode: "86",
     name_zhTW: "中國",
+    flag: "🇨🇳",
   },
   {
     country: "Hong Kong (China)",
@@ -19,6 +21,7 @@ export const countryData: countryDataType[] = [
     code_name: "HK",
     areaCode: "852",
     name_zhTW: "中國香港",
+    flag: "🇭🇰",
   },
   {
     country: "United States of America",
@@ -26,6 +29,7 @@ export const countryData: countryDataType[] = [
     code_name: "US",
     areaCode: "1",
     name_zhTW: "美國",
+    flag: "🇺🇸",
   },
   {
     country: "Singapore",
@@ -33,6 +37,7 @@ export const countryData: countryDataType[] = [
     code_name: "SG",
     areaCode: "65",
     name_zhTW: "新加坡",
+    flag: "🇸🇬",
   },
   {
     country: "Canada",
@@ -40,6 +45,7 @@ export const countryData: countryDataType[] = [
     code_name: "CA",
     areaCode: "1",
     name_zhTW: "加拿大",
+    flag: "🇨🇦",
   },
   {
     country: "Australia",
@@ -47,6 +53,7 @@ export const countryData: countryDataType[] = [
     code_name: "AU",
     areaCode: "61",
     name_zhTW: "澳洲",
+    flag: "🇦🇺",
   },
   {
     country: "United Kingdom",
@@ -54,6 +61,7 @@ export const countryData: countryDataType[] = [
     code_name: "GB",
     areaCode: "44",
     name_zhTW: "英國",
+    flag: "🇬🇧",
   },
   {
     country: "South Africa",
@@ -61,6 +69,7 @@ export const countryData: countryDataType[] = [
     code_name: "ZA",
     areaCode: "27",
     name_zhTW: "南非",
+    flag: "🇿🇦",
   },
   {
     country: "Andorra",
@@ -68,6 +77,7 @@ export const countryData: countryDataType[] = [
     code_name: "AD",
     areaCode: "376",
     name_zhTW: "安道爾",
+    flag: "🇦🇩",
   },
   {
     country: "Afghanistan",
@@ -75,6 +85,7 @@ export const countryData: countryDataType[] = [
     code_name: "AF",
     areaCode: "93",
     name_zhTW: "阿富汗",
+    flag: "🇦🇫",
   },
   {
     country: "Antigua and   Barbuda",
@@ -82,6 +93,7 @@ export const countryData: countryDataType[] = [
     code_name: "AG",
     areaCode: "1268",
     name_zhTW: "安提瓜和巴布達",
+    flag: "🇦🇬",
   },
   {
     country: "Anguilla",
@@ -89,6 +101,7 @@ export const countryData: countryDataType[] = [
     code_name: "AI",
     areaCode: "1264",
     name_zhTW: "安圭拉",
+    flag: "🇦🇮",
   },
   {
     country: "Albania",
@@ -96,6 +109,7 @@ export const countryData: countryDataType[] = [
     code_name: "AL",
     areaCode: "355",
     name_zhTW: "阿爾巴尼亞",
+    flag: "🇦🇱",
   },
   {
     country: "Armenia",
@@ -103,6 +117,7 @@ export const countryData: countryDataType[] = [
     code_name: "AM",
     areaCode: "374",
     name_zhTW: "亞美尼亞",
+    flag: "🇦🇲",
   },
   {
     country: "Angola",
@@ -110,6 +125,7 @@ export const countryData: countryDataType[] = [
     code_name: "AO",
     areaCode: "244",
     name_zhTW: "安哥拉",
+    flag: "🇦🇴",
   },
   {
     country: "Argentina",
@@ -117,6 +133,7 @@ export const countryData: countryDataType[] = [
     code_name: "AR",
     areaCode: "54",
     name_zhTW: "阿根廷",
+    flag: "🇦🇷",
   },
   {
     country: "American   Samoa",
@@ -124,6 +141,7 @@ export const countryData: countryDataType[] = [
     code_name: "AS",
     areaCode: "1684",
     name_zhTW: "美屬薩摩亞",
+    flag: "🇦🇸",
   },
   {
     country: "Austria",
@@ -131,6 +149,7 @@ export const countryData: countryDataType[] = [
     code_name: "AT",
     areaCode: "43",
     name_zhTW: "奧地利",
+    flag: "🇦🇹",
   },
   {
     country: "Aruba",
@@ -138,6 +157,7 @@ export const countryData: countryDataType[] = [
     code_name: "AW",
     areaCode: "297",
     name_zhTW: "阿魯巴",
+    flag: "🇦🇼",
   },
   {
     country: "Azerbaijan",
@@ -145,13 +165,15 @@ export const countryData: countryDataType[] = [
     code_name: "AZ",
     areaCode: "994",
     name_zhTW: "阿塞拜疆",
+    flag: "🇦🇿",
   },
   {
-    country: "Bosniaand   Herzegovina",
+    country: "Bosnia & Herzegovina",
     name: "波斯尼亚和黑塞哥维那",
     code_name: "BA",
     areaCode: "387",
     name_zhTW: "波斯尼亞和黑塞哥維那",
+    flag: "🇧🇦",
   },
   {
     country: "Barbados",
@@ -159,6 +181,7 @@ export const countryData: countryDataType[] = [
     code_name: "BB",
     areaCode: "1246",
     name_zhTW: "巴巴多斯",
+    flag: "🇧🇧",
   },
   {
     country: "Bangladesh",
@@ -166,6 +189,7 @@ export const countryData: countryDataType[] = [
     code_name: "BD",
     areaCode: "880",
     name_zhTW: "孟加拉",
+    flag: "🇧🇩",
   },
   {
     country: "Belgium",
@@ -173,6 +197,7 @@ export const countryData: countryDataType[] = [
     code_name: "BE",
     areaCode: "32",
     name_zhTW: "比利時",
+    flag: "🇧🇪",
   },
   {
     country: "Burkina Faso",
@@ -180,6 +205,7 @@ export const countryData: countryDataType[] = [
     code_name: "BF",
     areaCode: "226",
     name_zhTW: "布基納法索",
+    flag: "🇧🇫",
   },
   {
     country: "Bulgaria",
@@ -187,6 +213,7 @@ export const countryData: countryDataType[] = [
     code_name: "BG",
     areaCode: "359",
     name_zhTW: "保加利亞",
+    flag: "🇧🇬",
   },
   {
     country: "Bahrain",
@@ -194,6 +221,7 @@ export const countryData: countryDataType[] = [
     code_name: "BH",
     areaCode: "973",
     name_zhTW: "巴林",
+    flag: "🇧🇭",
   },
   {
     country: "Benin",
@@ -201,6 +229,7 @@ export const countryData: countryDataType[] = [
     code_name: "BJ",
     areaCode: "229",
     name_zhTW: "貝寧",
+    flag: "🇧🇯",
   },
   {
     country: "Bermuda",
@@ -208,6 +237,7 @@ export const countryData: countryDataType[] = [
     code_name: "BM",
     areaCode: "1441",
     name_zhTW: "百慕達",
+    flag: "🇧🇲",
   },
   {
     country: "Brunei",
@@ -215,6 +245,7 @@ export const countryData: countryDataType[] = [
     code_name: "BN",
     areaCode: "673",
     name_zhTW: "汶萊",
+    flag: "🇧🇳",
   },
   {
     country: "Bolivia",
@@ -222,13 +253,15 @@ export const countryData: countryDataType[] = [
     code_name: "BO",
     areaCode: "591",
     name_zhTW: "玻利維亞",
+    flag: "🇧🇴",
   },
   {
-    country: "Caribisch   Nederland",
-    name: "荷兰加勒比",
+    country: "Caribbean Netherlands",
+    name: "加勒比荷兰",
     code_name: "BQ",
     areaCode: "599",
     name_zhTW: "荷屬安的列斯",
+    flag: "🇧🇶",
   },
   {
     country: "Brazil",
@@ -236,6 +269,7 @@ export const countryData: countryDataType[] = [
     code_name: "BR",
     areaCode: "55",
     name_zhTW: "巴西",
+    flag: "🇧🇷",
   },
   {
     country: "Bahamas",
@@ -243,6 +277,7 @@ export const countryData: countryDataType[] = [
     code_name: "BS",
     areaCode: "1242",
     name_zhTW: "巴哈馬",
+    flag: "🇧🇸",
   },
   {
     country: "Bhutan",
@@ -250,6 +285,7 @@ export const countryData: countryDataType[] = [
     code_name: "BT",
     areaCode: "975",
     name_zhTW: "不丹",
+    flag: "🇧🇹",
   },
   {
     country: "Botswana",
@@ -257,6 +293,7 @@ export const countryData: countryDataType[] = [
     code_name: "BW",
     areaCode: "267",
     name_zhTW: "博茨瓦納",
+    flag: "🇧🇼",
   },
   {
     country: "Belize",
@@ -264,13 +301,15 @@ export const countryData: countryDataType[] = [
     code_name: "BZ",
     areaCode: "501",
     name_zhTW: "伯利兹",
+    flag: "🇧🇿",
   },
   {
-    country: "Democratic   Republic of theCongo",
+    country: "Democratic Republic of theCongo",
     name: "刚果民主共和国",
     code_name: "CD",
     areaCode: "243",
     name_zhTW: "剛果（金夏沙）",
+    flag: "🇨🇩",
   },
   {
     country: "Switzerland",
@@ -278,6 +317,7 @@ export const countryData: countryDataType[] = [
     code_name: "CH",
     areaCode: "41",
     name_zhTW: "瑞士",
+    flag: "🇨🇭",
   },
   {
     country: "Ivory Coast",
@@ -285,6 +325,7 @@ export const countryData: countryDataType[] = [
     code_name: "CI",
     areaCode: "225",
     name_zhTW: "科特迪瓦",
+    flag: "🇨🇮",
   },
   {
     country: "Cook Islands",
@@ -292,6 +333,7 @@ export const countryData: countryDataType[] = [
     code_name: "CK",
     areaCode: "682",
     name_zhTW: "庫克群島",
+    flag: "🇨🇰",
   },
   {
     country: "Chile",
@@ -299,6 +341,7 @@ export const countryData: countryDataType[] = [
     code_name: "CL",
     areaCode: "56",
     name_zhTW: "智利",
+    flag: "🇨🇱",
   },
   {
     country: "Cameroon",
@@ -306,6 +349,7 @@ export const countryData: countryDataType[] = [
     code_name: "CM",
     areaCode: "237",
     name_zhTW: "喀麥隆",
+    flag: "🇨🇲",
   },
   {
     country: "Colombia",
@@ -313,6 +357,7 @@ export const countryData: countryDataType[] = [
     code_name: "CO",
     areaCode: "57",
     name_zhTW: "哥倫比亞",
+    flag: "🇨🇴",
   },
   {
     country: "CostaRica",
@@ -320,6 +365,7 @@ export const countryData: countryDataType[] = [
     code_name: "CR",
     areaCode: "506",
     name_zhTW: "哥斯達黎加",
+    flag: "🇨🇷",
   },
   {
     country: "Cape Verde",
@@ -327,6 +373,7 @@ export const countryData: countryDataType[] = [
     code_name: "CV",
     areaCode: "238",
     name_zhTW: "佛得角共和國",
+    flag: "🇨🇻",
   },
   {
     country: "Curacao",
@@ -334,6 +381,7 @@ export const countryData: countryDataType[] = [
     code_name: "CW",
     areaCode: "599",
     name_zhTW: "庫拉索",
+    flag: "🇨🇼",
   },
   {
     country: "Cyprus",
@@ -341,6 +389,7 @@ export const countryData: countryDataType[] = [
     code_name: "CY",
     areaCode: "357",
     name_zhTW: "塞浦路斯共和國",
+    flag: "🇨🇾",
   },
   {
     country: "Czech",
@@ -348,6 +397,7 @@ export const countryData: countryDataType[] = [
     code_name: "CZ",
     areaCode: "420",
     name_zhTW: "捷克",
+    flag: "🇨🇿",
   },
   {
     country: "Germany",
@@ -355,6 +405,7 @@ export const countryData: countryDataType[] = [
     code_name: "DE",
     areaCode: "49",
     name_zhTW: "德國",
+    flag: "🇩🇪",
   },
   {
     country: "Djibouti",
@@ -362,6 +413,7 @@ export const countryData: countryDataType[] = [
     code_name: "DJ",
     areaCode: "253",
     name_zhTW: "吉布提",
+    flag: "🇩🇯",
   },
   {
     country: "Denmark",
@@ -369,6 +421,7 @@ export const countryData: countryDataType[] = [
     code_name: "DK",
     areaCode: "45",
     name_zhTW: "丹麥",
+    flag: "🇩🇰",
   },
   {
     country: "Dominica",
@@ -376,6 +429,7 @@ export const countryData: countryDataType[] = [
     code_name: "DM",
     areaCode: "1767",
     name_zhTW: "多米尼克國",
+    flag: "🇩🇲",
   },
   {
     country: "dominican   republic",
@@ -383,6 +437,7 @@ export const countryData: countryDataType[] = [
     code_name: "DO",
     areaCode: "1809",
     name_zhTW: "多米尼加共和國",
+    flag: "🇩🇴",
   },
   {
     country: "Algeria",
@@ -390,6 +445,7 @@ export const countryData: countryDataType[] = [
     code_name: "DZ",
     areaCode: "213",
     name_zhTW: "阿爾及利亞",
+    flag: "🇩🇿",
   },
   {
     country: "Ecuador",
@@ -397,6 +453,7 @@ export const countryData: countryDataType[] = [
     code_name: "EC",
     areaCode: "593",
     name_zhTW: "厄瓜多爾",
+    flag: "🇪🇨",
   },
   {
     country: "Estonia",
@@ -404,6 +461,7 @@ export const countryData: countryDataType[] = [
     code_name: "EE",
     areaCode: "372",
     name_zhTW: "愛沙尼亞",
+    flag: "🇪🇪",
   },
   {
     country: "Egypt",
@@ -411,6 +469,7 @@ export const countryData: countryDataType[] = [
     code_name: "EG",
     areaCode: "20",
     name_zhTW: "埃及",
+    flag: "🇪🇬",
   },
   {
     country: "Eritrea",
@@ -418,6 +477,7 @@ export const countryData: countryDataType[] = [
     code_name: "ER",
     areaCode: "291",
     name_zhTW: "厄立特里亞",
+    flag: "🇪🇷",
   },
   {
     country: "Spain",
@@ -425,6 +485,7 @@ export const countryData: countryDataType[] = [
     code_name: "ES",
     areaCode: "34",
     name_zhTW: "西班牙",
+    flag: "🇪🇸",
   },
   {
     country: "Ethiopia",
@@ -432,6 +493,7 @@ export const countryData: countryDataType[] = [
     code_name: "ET",
     areaCode: "251",
     name_zhTW: "埃塞俄比亞",
+    flag: "🇪🇹",
   },
   {
     country: "Finland",
@@ -439,6 +501,7 @@ export const countryData: countryDataType[] = [
     code_name: "FI",
     areaCode: "358",
     name_zhTW: "芬蘭",
+    flag: "🇫🇮",
   },
   {
     country: "Fiji",
@@ -446,6 +509,7 @@ export const countryData: countryDataType[] = [
     code_name: "FJ",
     areaCode: "679",
     name_zhTW: "斐濟",
+    flag: "🇫🇯",
   },
   {
     country: "Micronesia",
@@ -453,6 +517,7 @@ export const countryData: countryDataType[] = [
     code_name: "FM",
     areaCode: "691",
     name_zhTW: "密克羅尼西亞",
+    flag: "🇫🇲",
   },
   {
     country: "Faroe Islands",
@@ -460,6 +525,7 @@ export const countryData: countryDataType[] = [
     code_name: "FO",
     areaCode: "298",
     name_zhTW: "法羅群島",
+    flag: "🇫🇴",
   },
   {
     country: "France",
@@ -467,6 +533,7 @@ export const countryData: countryDataType[] = [
     code_name: "FR",
     areaCode: "33",
     name_zhTW: "法國",
+    flag: "🇫🇷",
   },
   {
     country: "Gabon",
@@ -474,6 +541,7 @@ export const countryData: countryDataType[] = [
     code_name: "GA",
     areaCode: "241",
     name_zhTW: "加蓬",
+    flag: "🇬🇦",
   },
   {
     country: "Grenada",
@@ -481,6 +549,7 @@ export const countryData: countryDataType[] = [
     code_name: "GD",
     areaCode: "1473",
     name_zhTW: "格林納達",
+    flag: "🇬🇩",
   },
   {
     country: "Georgia",
@@ -488,6 +557,7 @@ export const countryData: countryDataType[] = [
     code_name: "GE",
     areaCode: "995",
     name_zhTW: "格魯吉亞",
+    flag: "🇬🇪",
   },
   {
     country: "French Guiana",
@@ -495,6 +565,7 @@ export const countryData: countryDataType[] = [
     code_name: "GF",
     areaCode: "594",
     name_zhTW: "法屬圭亞那",
+    flag: "🇬🇫",
   },
   {
     country: "Ghana",
@@ -502,6 +573,7 @@ export const countryData: countryDataType[] = [
     code_name: "GH",
     areaCode: "233",
     name_zhTW: "加納",
+    flag: "🇬🇭",
   },
   {
     country: "Gibraltar",
@@ -509,6 +581,7 @@ export const countryData: countryDataType[] = [
     code_name: "GI",
     areaCode: "350",
     name_zhTW: "直布羅陀",
+    flag: "🇬🇮",
   },
   {
     country: "Greenland",
@@ -516,6 +589,7 @@ export const countryData: countryDataType[] = [
     code_name: "GL",
     areaCode: "299",
     name_zhTW: "格陵蘭",
+    flag: "🇬🇱",
   },
   {
     country: "Gambia",
@@ -523,6 +597,7 @@ export const countryData: countryDataType[] = [
     code_name: "GM",
     areaCode: "220",
     name_zhTW: "岡比亞",
+    flag: "🇬🇲",
   },
   {
     country: "Guinea",
@@ -530,6 +605,7 @@ export const countryData: countryDataType[] = [
     code_name: "GN",
     areaCode: "224",
     name_zhTW: "幾內亞",
+    flag: "🇬🇳",
   },
   {
     country: "Guadeloupe",
@@ -537,13 +613,15 @@ export const countryData: countryDataType[] = [
     code_name: "GP",
     areaCode: "590",
     name_zhTW: "瓜德羅普",
+    flag: "🇬🇵",
   },
   {
-    country: "Equatorial   Guinea",
+    country: "Equatorial Guinea",
     name: "赤道几内亚",
     code_name: "GQ",
     areaCode: "240",
     name_zhTW: "赤道幾內亞",
+    flag: "🇬🇶",
   },
   {
     country: "Greece",
@@ -551,13 +629,15 @@ export const countryData: countryDataType[] = [
     code_name: "GR",
     areaCode: "30",
     name_zhTW: "希臘",
+    flag: "🇬🇷",
   },
   {
     country: "Guatemala",
-    name: "瓜地马拉",
+    name: "危地马拉",
     code_name: "GT",
     areaCode: "502",
     name_zhTW: "危地馬拉",
+    flag: "🇬🇹",
   },
   {
     country: "Guam",
@@ -565,6 +645,7 @@ export const countryData: countryDataType[] = [
     code_name: "GU",
     areaCode: "1671",
     name_zhTW: "關島",
+    flag: "🇬🇺",
   },
   {
     country: "Guinea-Bissau",
@@ -572,6 +653,7 @@ export const countryData: countryDataType[] = [
     code_name: "GW",
     areaCode: "245",
     name_zhTW: "幾內亞比紹",
+    flag: "🇬🇼",
   },
   {
     country: "Guyana",
@@ -579,6 +661,7 @@ export const countryData: countryDataType[] = [
     code_name: "GY",
     areaCode: "592",
     name_zhTW: "圭亞那",
+    flag: "🇬🇾",
   },
   {
     country: "Honduras",
@@ -586,6 +669,7 @@ export const countryData: countryDataType[] = [
     code_name: "HN",
     areaCode: "504",
     name_zhTW: "洪都拉斯",
+    flag: "🇭🇳",
   },
   {
     country: "Croatia",
@@ -593,6 +677,7 @@ export const countryData: countryDataType[] = [
     code_name: "HR",
     areaCode: "385",
     name_zhTW: "克羅地亞共和國",
+    flag: "🇭🇷",
   },
   {
     country: "Haiti",
@@ -600,6 +685,7 @@ export const countryData: countryDataType[] = [
     code_name: "HT",
     areaCode: "509",
     name_zhTW: "海地",
+    flag: "🇭🇹",
   },
   {
     country: "Hungary",
@@ -607,6 +693,7 @@ export const countryData: countryDataType[] = [
     code_name: "HU",
     areaCode: "36",
     name_zhTW: "匈牙利",
+    flag: "🇭🇺",
   },
   {
     country: "Indonesia",
@@ -614,6 +701,7 @@ export const countryData: countryDataType[] = [
     code_name: "ID",
     areaCode: "62",
     name_zhTW: "印尼",
+    flag: "🇮🇩",
   },
   {
     country: "Ireland",
@@ -621,6 +709,7 @@ export const countryData: countryDataType[] = [
     code_name: "IE",
     areaCode: "353",
     name_zhTW: "愛爾蘭",
+    flag: "🇮🇪",
   },
   {
     country: "Israel",
@@ -628,6 +717,7 @@ export const countryData: countryDataType[] = [
     code_name: "IL",
     areaCode: "972",
     name_zhTW: "以色列",
+    flag: "🇮🇱",
   },
   {
     country: "India",
@@ -635,6 +725,7 @@ export const countryData: countryDataType[] = [
     code_name: "IN",
     areaCode: "91",
     name_zhTW: "印度",
+    flag: "🇮🇳",
   },
   {
     country: "Iceland",
@@ -642,6 +733,7 @@ export const countryData: countryDataType[] = [
     code_name: "IS",
     areaCode: "354",
     name_zhTW: "冰島",
+    flag: "🇮🇸",
   },
   {
     country: "Italy",
@@ -649,6 +741,7 @@ export const countryData: countryDataType[] = [
     code_name: "IT",
     areaCode: "39",
     name_zhTW: "意大利",
+    flag: "🇮🇹",
   },
   {
     country: "Jamaica",
@@ -656,6 +749,7 @@ export const countryData: countryDataType[] = [
     code_name: "JM",
     areaCode: "1876",
     name_zhTW: "牙買加",
+    flag: "🇯🇲",
   },
   {
     country: "Jordan",
@@ -663,6 +757,7 @@ export const countryData: countryDataType[] = [
     code_name: "JO",
     areaCode: "962",
     name_zhTW: "約旦",
+    flag: "🇯🇴",
   },
   {
     country: "Japan",
@@ -670,6 +765,7 @@ export const countryData: countryDataType[] = [
     code_name: "JP",
     areaCode: "81",
     name_zhTW: "日本",
+    flag: "🇯🇵",
   },
   {
     country: "Kenya",
@@ -677,6 +773,7 @@ export const countryData: countryDataType[] = [
     code_name: "KE",
     areaCode: "254",
     name_zhTW: "肯雅",
+    flag: "🇰🇪",
   },
   {
     country: "Kyrgyzstan",
@@ -684,6 +781,7 @@ export const countryData: countryDataType[] = [
     code_name: "KG",
     areaCode: "996",
     name_zhTW: "吉爾吉斯",
+    flag: "🇰🇬",
   },
   {
     country: "Cambodia",
@@ -691,6 +789,7 @@ export const countryData: countryDataType[] = [
     code_name: "KH",
     areaCode: "855",
     name_zhTW: "柬埔寨",
+    flag: "🇰🇭",
   },
   {
     country: "Kiribati",
@@ -698,6 +797,7 @@ export const countryData: countryDataType[] = [
     code_name: "KI",
     areaCode: "686",
     name_zhTW: "基里巴斯",
+    flag: "🇰🇮",
   },
   {
     country: "Comoros",
@@ -705,13 +805,15 @@ export const countryData: countryDataType[] = [
     code_name: "KM",
     areaCode: "269",
     name_zhTW: "科摩羅",
+    flag: "🇰🇲",
   },
   {
-    country: "Saint Kitts   and Nevis",
+    country: "Saint Kitts and Nevis",
     name: "圣基茨和尼维斯",
     code_name: "KN",
     areaCode: "1869",
     name_zhTW: "聖基茨和尼維斯",
+    flag: "🇰🇳",
   },
   {
     country: "South Korea",
@@ -719,6 +821,7 @@ export const countryData: countryDataType[] = [
     code_name: "KR",
     areaCode: "82",
     name_zhTW: "南韓",
+    flag: "🇰🇷",
   },
   {
     country: "Kuwait",
@@ -726,13 +829,15 @@ export const countryData: countryDataType[] = [
     code_name: "KW",
     areaCode: "965",
     name_zhTW: "科威特",
+    flag: "🇰🇼",
   },
   {
-    country: "Cayman   Islands",
+    country: "Cayman Islands",
     name: "开曼群岛",
     code_name: "KY",
     areaCode: "1345",
     name_zhTW: "開曼群島",
+    flag: "🇰🇾",
   },
   {
     country: "Kazakhstan",
@@ -740,6 +845,7 @@ export const countryData: countryDataType[] = [
     code_name: "KZ",
     areaCode: "7",
     name_zhTW: "哈薩克",
+    flag: "🇰🇿",
   },
   {
     country: "Laos",
@@ -747,6 +853,7 @@ export const countryData: countryDataType[] = [
     code_name: "LA",
     areaCode: "856",
     name_zhTW: "老撾",
+    flag: "🇱🇦",
   },
   {
     country: "Saint Lucia",
@@ -754,6 +861,7 @@ export const countryData: countryDataType[] = [
     code_name: "LC",
     areaCode: "1758",
     name_zhTW: "聖盧西亞",
+    flag: "🇱🇨",
   },
   {
     country: "Liechtenstein",
@@ -761,6 +869,7 @@ export const countryData: countryDataType[] = [
     code_name: "LI",
     areaCode: "423",
     name_zhTW: "列支敦士登",
+    flag: "🇱🇮",
   },
   {
     country: "Sri Lanka",
@@ -768,6 +877,7 @@ export const countryData: countryDataType[] = [
     code_name: "LK",
     areaCode: "94",
     name_zhTW: "斯里蘭卡",
+    flag: "🇱🇰",
   },
   {
     country: "Liberia",
@@ -775,6 +885,7 @@ export const countryData: countryDataType[] = [
     code_name: "LR",
     areaCode: "231",
     name_zhTW: "利比里亞",
+    flag: "🇱🇷",
   },
   {
     country: "Lesotho",
@@ -782,6 +893,7 @@ export const countryData: countryDataType[] = [
     code_name: "LS",
     areaCode: "266",
     name_zhTW: "莱索托",
+    flag: "🇱🇸",
   },
   {
     country: "Lithuania",
@@ -789,6 +901,7 @@ export const countryData: countryDataType[] = [
     code_name: "LT",
     areaCode: "370",
     name_zhTW: "立陶宛",
+    flag: "🇱🇹",
   },
   {
     country: "Luxembourg",
@@ -796,6 +909,7 @@ export const countryData: countryDataType[] = [
     code_name: "LU",
     areaCode: "352",
     name_zhTW: "盧森堡",
+    flag: "🇱🇺",
   },
   {
     country: "Latvia",
@@ -803,6 +917,7 @@ export const countryData: countryDataType[] = [
     code_name: "LV",
     areaCode: "371",
     name_zhTW: "拉脫維亞",
+    flag: "🇱🇻",
   },
   {
     country: "Morocco",
@@ -810,6 +925,7 @@ export const countryData: countryDataType[] = [
     code_name: "MA",
     areaCode: "212",
     name_zhTW: "摩洛哥",
+    flag: "🇲🇦",
   },
   {
     country: "Monaco",
@@ -817,6 +933,7 @@ export const countryData: countryDataType[] = [
     code_name: "MC",
     areaCode: "377",
     name_zhTW: "摩納哥",
+    flag: "🇲🇨",
   },
   {
     country: "Moldova",
@@ -824,6 +941,7 @@ export const countryData: countryDataType[] = [
     code_name: "MD",
     areaCode: "373",
     name_zhTW: "摩爾多瓦",
+    flag: "🇲🇩",
   },
   {
     country: "Montenegro",
@@ -831,6 +949,7 @@ export const countryData: countryDataType[] = [
     code_name: "ME",
     areaCode: "382",
     name_zhTW: "黑山",
+    flag: "🇲🇪",
   },
   {
     country: "Madagascar",
@@ -838,13 +957,15 @@ export const countryData: countryDataType[] = [
     code_name: "MG",
     areaCode: "261",
     name_zhTW: "馬達加斯加",
+    flag: "🇲🇬",
   },
   {
-    country: "Marshall   Islands",
+    country: "Marshall Islands",
     name: "马绍尔群岛",
     code_name: "MH",
     areaCode: "692",
     name_zhTW: "馬紹爾群島",
+    flag: "🇲🇭",
   },
   {
     country: "Macedonia",
@@ -852,6 +973,7 @@ export const countryData: countryDataType[] = [
     code_name: "MK",
     areaCode: "389",
     name_zhTW: "北馬其頓共和國",
+    flag: "🇲🇰",
   },
   {
     country: "Myanmar",
@@ -859,6 +981,7 @@ export const countryData: countryDataType[] = [
     code_name: "MM",
     areaCode: "95",
     name_zhTW: "緬甸",
+    flag: "🇲🇲",
   },
   {
     country: "Mongolia",
@@ -866,6 +989,7 @@ export const countryData: countryDataType[] = [
     code_name: "MN",
     areaCode: "976",
     name_zhTW: "蒙古",
+    flag: "🇲🇳",
   },
   {
     country: "Macau (China)",
@@ -873,6 +997,7 @@ export const countryData: countryDataType[] = [
     code_name: "MO",
     areaCode: "853",
     name_zhTW: "中國澳門",
+    flag: "🇲🇴",
   },
   {
     country: "Mauritania",
@@ -880,6 +1005,7 @@ export const countryData: countryDataType[] = [
     code_name: "MR",
     areaCode: "222",
     name_zhTW: "毛里塔尼亞",
+    flag: "🇲🇷",
   },
   {
     country: "Montserrat",
@@ -887,6 +1013,7 @@ export const countryData: countryDataType[] = [
     code_name: "MS",
     areaCode: "1664",
     name_zhTW: "蒙特塞拉特島",
+    flag: "🇲🇸",
   },
   {
     country: "Malta",
@@ -894,6 +1021,7 @@ export const countryData: countryDataType[] = [
     code_name: "MT",
     areaCode: "356",
     name_zhTW: "馬耳他",
+    flag: "🇲🇹",
   },
   {
     country: "Mauritius",
@@ -901,6 +1029,7 @@ export const countryData: countryDataType[] = [
     code_name: "MU",
     areaCode: "230",
     name_zhTW: "毛里裘斯",
+    flag: "🇲🇺",
   },
   {
     country: "Maldives",
@@ -908,6 +1037,7 @@ export const countryData: countryDataType[] = [
     code_name: "MV",
     areaCode: "960",
     name_zhTW: "馬爾代夫",
+    flag: "🇲🇻",
   },
   {
     country: "Malawi",
@@ -915,6 +1045,7 @@ export const countryData: countryDataType[] = [
     code_name: "MW",
     areaCode: "265",
     name_zhTW: "馬拉維",
+    flag: "🇲🇼",
   },
   {
     country: "Mexico",
@@ -922,6 +1053,7 @@ export const countryData: countryDataType[] = [
     code_name: "MX",
     areaCode: "52",
     name_zhTW: "墨西哥",
+    flag: "🇲🇽",
   },
   {
     country: "Malaysia",
@@ -929,6 +1061,7 @@ export const countryData: countryDataType[] = [
     code_name: "MY",
     areaCode: "60",
     name_zhTW: "馬來西亞",
+    flag: "🇲🇾",
   },
   {
     country: "Mozambique",
@@ -936,6 +1069,7 @@ export const countryData: countryDataType[] = [
     code_name: "MZ",
     areaCode: "258",
     name_zhTW: "莫桑比克",
+    flag: "🇲🇿",
   },
   {
     country: "Namibia",
@@ -943,6 +1077,7 @@ export const countryData: countryDataType[] = [
     code_name: "NA",
     areaCode: "264",
     name_zhTW: "納米比亞",
+    flag: "🇳🇦",
   },
   {
     country: "New Caledonia",
@@ -950,6 +1085,7 @@ export const countryData: countryDataType[] = [
     code_name: "NC",
     areaCode: "687",
     name_zhTW: "新喀里多尼亞",
+    flag: "🇳🇨",
   },
   {
     country: "Niger",
@@ -957,6 +1093,7 @@ export const countryData: countryDataType[] = [
     code_name: "NE",
     areaCode: "227",
     name_zhTW: "尼日爾",
+    flag: "🇳🇪",
   },
   {
     country: "Nigeria",
@@ -964,6 +1101,7 @@ export const countryData: countryDataType[] = [
     code_name: "NG",
     areaCode: "234",
     name_zhTW: "尼日利亞",
+    flag: "🇳🇬",
   },
   {
     country: "Netherlands",
@@ -971,6 +1109,7 @@ export const countryData: countryDataType[] = [
     code_name: "NL",
     areaCode: "31",
     name_zhTW: "荷蘭",
+    flag: "🇳🇱",
   },
   {
     country: "Norway",
@@ -978,6 +1117,7 @@ export const countryData: countryDataType[] = [
     code_name: "NO",
     areaCode: "47",
     name_zhTW: "挪威",
+    flag: "🇳🇴",
   },
   {
     country: "Nepal",
@@ -985,6 +1125,7 @@ export const countryData: countryDataType[] = [
     code_name: "NP",
     areaCode: "977",
     name_zhTW: "尼泊爾",
+    flag: "🇳🇵",
   },
   {
     country: "Nauru",
@@ -992,6 +1133,7 @@ export const countryData: countryDataType[] = [
     code_name: "NR",
     areaCode: "674",
     name_zhTW: "瑙魯",
+    flag: "🇳🇷",
   },
   {
     country: "New Zealand",
@@ -999,6 +1141,7 @@ export const countryData: countryDataType[] = [
     code_name: "NZ",
     areaCode: "64",
     name_zhTW: "紐西蘭",
+    flag: "🇳🇿",
   },
   {
     country: "Oman",
@@ -1006,6 +1149,7 @@ export const countryData: countryDataType[] = [
     code_name: "OM",
     areaCode: "968",
     name_zhTW: "阿曼",
+    flag: "🇴🇲",
   },
   {
     country: "Panama",
@@ -1013,6 +1157,7 @@ export const countryData: countryDataType[] = [
     code_name: "PA",
     areaCode: "507",
     name_zhTW: "巴拿馬",
+    flag: "🇵🇦",
   },
   {
     country: "Peru",
@@ -1020,20 +1165,23 @@ export const countryData: countryDataType[] = [
     code_name: "PE",
     areaCode: "51",
     name_zhTW: "秘魯",
+    flag: "🇵🇪",
   },
   {
-    country: "French   Polynesia",
+    country: "French Polynesia",
     name: "法属波利尼西亚",
     code_name: "PF",
     areaCode: "689",
     name_zhTW: "法屬玻利尼西亞",
+    flag: "🇵🇫",
   },
   {
-    country: "Papua New   Guinea",
+    country: "Papua New Guinea",
     name: "巴布亚新几内亚",
     code_name: "PG",
     areaCode: "675",
     name_zhTW: "巴布亞新畿內亞",
+    flag: "🇵🇬",
   },
   {
     country: "Philippines",
@@ -1041,6 +1189,7 @@ export const countryData: countryDataType[] = [
     code_name: "PH",
     areaCode: "63",
     name_zhTW: "菲律賓",
+    flag: "🇵🇭",
   },
   {
     country: "Pakistan",
@@ -1048,6 +1197,7 @@ export const countryData: countryDataType[] = [
     code_name: "PK",
     areaCode: "92",
     name_zhTW: "巴基斯坦",
+    flag: "🇵🇰",
   },
   {
     country: "Poland",
@@ -1055,13 +1205,15 @@ export const countryData: countryDataType[] = [
     code_name: "PL",
     areaCode: "48",
     name_zhTW: "波蘭",
+    flag: "🇵🇱",
   },
   {
-    country: "Saint   Pierreand Miquelon",
+    country: "Saint Pierreand Miquelon",
     name: "圣彼埃尔和密克隆岛",
     code_name: "PM",
     areaCode: "508",
     name_zhTW: "聖皮埃爾島及密克隆島",
+    flag: "🇵🇲",
   },
   {
     country: "Puerto Rico",
@@ -1069,6 +1221,7 @@ export const countryData: countryDataType[] = [
     code_name: "PR",
     areaCode: "1787",
     name_zhTW: "波多黎各",
+    flag: "🇵🇷",
   },
   {
     country: "Portugal",
@@ -1076,6 +1229,7 @@ export const countryData: countryDataType[] = [
     code_name: "PT",
     areaCode: "351",
     name_zhTW: "葡萄牙",
+    flag: "🇵🇹",
   },
   {
     country: "Palau",
@@ -1083,6 +1237,7 @@ export const countryData: countryDataType[] = [
     code_name: "PW",
     areaCode: "680",
     name_zhTW: "帛琉",
+    flag: "🇵🇼",
   },
   {
     country: "Paraguay",
@@ -1090,6 +1245,7 @@ export const countryData: countryDataType[] = [
     code_name: "PY",
     areaCode: "595",
     name_zhTW: "巴拉圭",
+    flag: "🇵🇾",
   },
   {
     country: "Qatar",
@@ -1097,13 +1253,15 @@ export const countryData: countryDataType[] = [
     code_name: "QA",
     areaCode: "974",
     name_zhTW: "卡塔爾",
+    flag: "🇶🇦",
   },
   {
-    country: "Réunion   Island",
+    country: "Réunion Island",
     name: "留尼汪",
     code_name: "RE",
     areaCode: "262",
     name_zhTW: "留尼旺",
+    flag: "🇷🇪",
   },
   {
     country: "Romania",
@@ -1111,6 +1269,7 @@ export const countryData: countryDataType[] = [
     code_name: "RO",
     areaCode: "40",
     name_zhTW: "羅馬尼亞",
+    flag: "🇷🇴",
   },
   {
     country: "Serbia",
@@ -1118,6 +1277,7 @@ export const countryData: countryDataType[] = [
     code_name: "RS",
     areaCode: "381",
     name_zhTW: "塞爾維亞",
+    flag: "🇷🇸",
   },
   {
     country: "Russia",
@@ -1125,6 +1285,7 @@ export const countryData: countryDataType[] = [
     code_name: "RU",
     areaCode: "7",
     name_zhTW: "俄羅斯",
+    flag: "🇷🇺",
   },
   {
     country: "Rwanda",
@@ -1132,6 +1293,7 @@ export const countryData: countryDataType[] = [
     code_name: "RW",
     areaCode: "250",
     name_zhTW: "盧旺達",
+    flag: "🇷🇼",
   },
   {
     country: "Saudi Arabia",
@@ -1139,13 +1301,15 @@ export const countryData: countryDataType[] = [
     code_name: "SA",
     areaCode: "966",
     name_zhTW: "沙特阿拉伯",
+    flag: "🇸🇦",
   },
   {
-    country: "Solomon   Islands",
+    country: "Solomon Islands",
     name: "所罗门群岛",
     code_name: "SB",
     areaCode: "677",
     name_zhTW: "所羅門群島",
+    flag: "🇸🇧",
   },
   {
     country: "Seychelles",
@@ -1153,6 +1317,7 @@ export const countryData: countryDataType[] = [
     code_name: "SC",
     areaCode: "248",
     name_zhTW: "塞舌爾",
+    flag: "🇸🇨",
   },
   {
     country: "Sudan",
@@ -1160,6 +1325,7 @@ export const countryData: countryDataType[] = [
     code_name: "SD",
     areaCode: "249",
     name_zhTW: "蘇丹",
+    flag: "🇸🇩",
   },
   {
     country: "Sweden",
@@ -1167,6 +1333,7 @@ export const countryData: countryDataType[] = [
     code_name: "SE",
     areaCode: "46",
     name_zhTW: "瑞典",
+    flag: "🇸🇪",
   },
   {
     country: "Slovenia",
@@ -1174,6 +1341,7 @@ export const countryData: countryDataType[] = [
     code_name: "SI",
     areaCode: "386",
     name_zhTW: "斯洛文尼亞共和國",
+    flag: "🇸🇮",
   },
   {
     country: "Slovakia",
@@ -1181,6 +1349,7 @@ export const countryData: countryDataType[] = [
     code_name: "SK",
     areaCode: "421",
     name_zhTW: "斯洛伐克",
+    flag: "🇸🇰",
   },
   {
     country: "Sierra Leone",
@@ -1188,6 +1357,7 @@ export const countryData: countryDataType[] = [
     code_name: "SL",
     areaCode: "232",
     name_zhTW: "塞拉利昂",
+    flag: "🇸🇱",
   },
   {
     country: "San Marino",
@@ -1195,6 +1365,7 @@ export const countryData: countryDataType[] = [
     code_name: "SM",
     areaCode: "378",
     name_zhTW: "聖馬利諾",
+    flag: "🇸🇲",
   },
   {
     country: "Senegal",
@@ -1202,6 +1373,7 @@ export const countryData: countryDataType[] = [
     code_name: "SN",
     areaCode: "221",
     name_zhTW: "塞內加爾",
+    flag: "🇸🇳",
   },
   {
     country: "Suriname",
@@ -1209,13 +1381,15 @@ export const countryData: countryDataType[] = [
     code_name: "SR",
     areaCode: "597",
     name_zhTW: "蘇里南",
+    flag: "🇸🇷",
   },
   {
-    country: "Sao Tome and   Principe",
+    country: "São Tomé & Príncipe",
     name: "圣多美和普林西比",
     code_name: "ST",
     areaCode: "239",
     name_zhTW: "聖多美和普林西比",
+    flag: "🇸🇹",
   },
   {
     country: "ElSalvador",
@@ -1223,6 +1397,7 @@ export const countryData: countryDataType[] = [
     code_name: "SV",
     areaCode: "503",
     name_zhTW: "薩爾瓦多",
+    flag: "🇸🇻",
   },
   {
     country: "Swaziland",
@@ -1230,13 +1405,15 @@ export const countryData: countryDataType[] = [
     code_name: "SZ",
     areaCode: "268",
     name_zhTW: "斯威士蘭",
+    flag: "🇸🇿",
   },
   {
-    country: "Turksand   Caicos Islands",
+    country: "Turksand Caicos Islands",
     name: "特克斯和凯科斯群岛",
     code_name: "TC",
     areaCode: "1649",
     name_zhTW: "特克斯和凱科斯群島",
+    flag: "🇹🇨",
   },
   {
     country: "Chad",
@@ -1244,6 +1421,7 @@ export const countryData: countryDataType[] = [
     code_name: "TD",
     areaCode: "235",
     name_zhTW: "乍得",
+    flag: "🇹🇩",
   },
   {
     country: "Togo",
@@ -1251,6 +1429,7 @@ export const countryData: countryDataType[] = [
     code_name: "TG",
     areaCode: "228",
     name_zhTW: "多哥",
+    flag: "🇹🇬",
   },
   {
     country: "Thailand",
@@ -1258,6 +1437,7 @@ export const countryData: countryDataType[] = [
     code_name: "TH",
     areaCode: "66",
     name_zhTW: "泰國",
+    flag: "🇹🇭",
   },
   {
     country: "Tajikistan",
@@ -1265,6 +1445,7 @@ export const countryData: countryDataType[] = [
     code_name: "TJ",
     areaCode: "992",
     name_zhTW: "塔吉克",
+    flag: "🇹🇯",
   },
   {
     country: "East Timor",
@@ -1272,6 +1453,7 @@ export const countryData: countryDataType[] = [
     code_name: "TL",
     areaCode: "670",
     name_zhTW: "東帝汶",
+    flag: "🇹🇱",
   },
   {
     country: "Turkmenistan",
@@ -1279,6 +1461,7 @@ export const countryData: countryDataType[] = [
     code_name: "TM",
     areaCode: "993",
     name_zhTW: "土庫曼",
+    flag: "🇹🇲",
   },
   {
     country: "Tunisia",
@@ -1286,6 +1469,7 @@ export const countryData: countryDataType[] = [
     code_name: "TN",
     areaCode: "216",
     name_zhTW: "突尼西亞",
+    flag: "🇹🇳",
   },
   {
     country: "Tonga",
@@ -1293,6 +1477,7 @@ export const countryData: countryDataType[] = [
     code_name: "TO",
     areaCode: "676",
     name_zhTW: "湯加王國",
+    flag: "🇹🇴",
   },
   {
     country: "Turkey",
@@ -1300,13 +1485,15 @@ export const countryData: countryDataType[] = [
     code_name: "TR",
     areaCode: "90",
     name_zhTW: "土耳其",
+    flag: "🇹🇷",
   },
   {
-    country: "Trinidadand   Tobago",
+    country: "Trinidadand Tobago",
     name: "特立尼达和多巴哥",
     code_name: "TT",
     areaCode: "1868",
     name_zhTW: "千里達及托巴哥",
+    flag: "🇹🇹",
   },
   {
     country: "Taiwan (China)",
@@ -1314,6 +1501,7 @@ export const countryData: countryDataType[] = [
     code_name: "TW",
     areaCode: "886",
     name_zhTW: "中國台灣",
+    flag: "🇨🇳",
   },
   {
     country: "Tanzania",
@@ -1321,6 +1509,7 @@ export const countryData: countryDataType[] = [
     code_name: "TZ",
     areaCode: "255",
     name_zhTW: "坦桑尼亞",
+    flag: "🇹🇿",
   },
   {
     country: "Uganda",
@@ -1328,6 +1517,7 @@ export const countryData: countryDataType[] = [
     code_name: "UG",
     areaCode: "256",
     name_zhTW: "烏干達",
+    flag: "🇺🇬",
   },
   {
     country: "Uruguay",
@@ -1335,6 +1525,7 @@ export const countryData: countryDataType[] = [
     code_name: "UY",
     areaCode: "598",
     name_zhTW: "烏拉圭",
+    flag: "🇺🇾",
   },
   {
     country: "Uzbekistan",
@@ -1342,20 +1533,23 @@ export const countryData: countryDataType[] = [
     code_name: "UZ",
     areaCode: "998",
     name_zhTW: "烏茲別克",
+    flag: "🇺🇿",
   },
   {
-    country: "Saint Vincent   and The Grenadines",
+    country: "Saint Vincent and The Grenadines",
     name: "圣文森特和格林纳丁斯",
     code_name: "VC",
     areaCode: "1784",
     name_zhTW: "聖文森特和格林納丁斯",
+    flag: "🇻🇨",
   },
   {
-    country: "VirginIslands,British",
-    name: "英属处女群岛",
+    country: "British Virgin Islands",
+    name: "英属维尔京群岛",
     code_name: "VG",
     areaCode: "1284",
     name_zhTW: "英屬維爾京群島",
+    flag: "🇻🇬",
   },
   {
     country: "Vietnam",
@@ -1363,6 +1557,7 @@ export const countryData: countryDataType[] = [
     code_name: "VN",
     areaCode: "84",
     name_zhTW: "越南",
+    flag: "🇻🇳",
   },
   {
     country: "Vanuatu",
@@ -1370,6 +1565,7 @@ export const countryData: countryDataType[] = [
     code_name: "VU",
     areaCode: "678",
     name_zhTW: "瓦努阿圖",
+    flag: "🇻🇺",
   },
   {
     country: "Samoa",
@@ -1377,6 +1573,7 @@ export const countryData: countryDataType[] = [
     code_name: "WS",
     areaCode: "685",
     name_zhTW: "薩摩亞",
+    flag: "🇼🇸",
   },
   {
     country: "Mayotte",
@@ -1384,6 +1581,7 @@ export const countryData: countryDataType[] = [
     code_name: "YT",
     areaCode: "269",
     name_zhTW: "科摩羅",
+    flag: "🇾🇹",
   },
   {
     country: "Zambia",
@@ -1391,5 +1589,6 @@ export const countryData: countryDataType[] = [
     code_name: "ZM",
     areaCode: "260",
     name_zhTW: "贊比亞共和國",
+    flag: "🇿🇲",
   },
 ];
